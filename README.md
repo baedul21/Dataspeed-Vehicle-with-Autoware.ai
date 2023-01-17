@@ -3,7 +3,7 @@
 This instruction shows how to install Autoware.ai (ROS1) in your Ubuntu machine.
 
 ## 1.1. Prerequisite
-### Install Ubuntu
+### Install Ubuntu & ROS1
 Download desktop image - https://releases.ubuntu.com/18.04/ and make USB boot - https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview
 
 Install Ubuntu 18.04 - https://ubuntu.com/tutorials/install-ubuntu-desktop-1804#1-overview 
@@ -94,6 +94,7 @@ Working setup can be tested by running a base CUDA container:
 $ nvidia-smi
 
 For example,
+
 ![image](https://user-images.githubusercontent.com/24539075/212996492-e844701b-d561-4d7b-90b1-01f750be06c5.png)
 
 
@@ -115,9 +116,11 @@ $ ./run.sh
 
 ### Errors
 After you run a 'run.sh' file, you might face two types of errors. First is 'UID' , user ID error. You can fix this error by editing the 'run.sh' file. Open and edit 'USER_ID' to '1000'.
+
 ![image](https://user-images.githubusercontent.com/24539075/212997034-4ad36ae1-5cd4-4146-ae78-98f8089c1949.png)
 
 The second type of error is docker error as below:
+
 ![image](https://user-images.githubusercontent.com/24539075/212997071-9aea529a-2e2f-4de3-abef-111b53a42c38.png)
 
 You can fix this error by typing as below:
